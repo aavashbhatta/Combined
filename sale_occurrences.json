@@ -1,19 +1,7 @@
 [
     {
         "storeId": 36,
-        "title": "30% off Handbags with FRIEND"
-    },
-    {
-        "storeId": 36,
-        "title": "Extra 30% off with FRIEND"
-    },
-    {
-        "storeId": 36,
-        "title": "Extra 10-30% off Code FRIEND"
-    },
-    {
-        "storeId": 36,
-        "title": "30% off Levi's"
+        "title": "25-40% off Limited Time Specials"
     },
     {
         "storeId": 36,
@@ -21,47 +9,51 @@
     },
     {
         "storeId": 36,
-        "title": "20-50% off Sneakers from Nike & more"
+        "title": "Extra 30% off with FRIEND"
     },
     {
         "storeId": 36,
-        "title": "25-40% off Limited Time Specials"
+        "title": "30% off Handbags with FRIEND"
     },
     {
         "storeId": 36,
         "title": "30% off Accessories with FRIEND"
     },
     {
-        "storeId": 5041,
-        "title": "Cinq A Sept Up to 70% Off"
+        "storeId": 36,
+        "title": "20-50% off Sneakers from Nike & more"
+    },
+    {
+        "storeId": 36,
+        "title": "30% off Polo Ralph Lauren"
     },
     {
         "storeId": 5041,
-        "title": "Designer Sunglasses & Watches Up to 65% Off"
+        "title": "A.L.C up to 65% Off"
     },
     {
         "storeId": 5041,
-        "title": "Pistola Up to 70% Off"
+        "title": "Sandal Shop: Casual Summer Sandals Up to 60% Off"
     },
     {
         "storeId": 5041,
-        "title": "Run Club Essentials Up to 50% Off"
+        "title": "Sandal Shop: Men's Summer Sandals Up to 50% Off"
     },
     {
         "storeId": 5041,
-        "title": "Curly & Textured Hair Care Feat. Pattern Beauty"
+        "title": "Sandal Shop: Summer Occasion Styles Up to 60% Off"
     },
     {
         "storeId": 5041,
-        "title": "Topman from $30"
+        "title": "Sandal Shop: Adventure Sandals For the Fam Featuring Teva"
     },
     {
         "storeId": 5041,
-        "title": "Free People Up to 65% Off"
+        "title": "Sandal Shop: Kids' Favorite Styles Up to 50% Off"
     },
     {
         "storeId": 5041,
-        "title": "New-In Moncler Sunglasses"
+        "title": "New-In Trendy Sunglasses Starting at $35"
     },
     {
         "storeId": 5041,
@@ -69,7 +61,7 @@
     },
     {
         "storeId": 5041,
-        "title": "Haircare Essentials Featuring Olaplex"
+        "title": "Cinq A Sept Up to 70% Off"
     },
     {
         "storeId": 5041,
@@ -77,7 +69,15 @@
     },
     {
         "storeId": 5041,
+        "title": "Designer Sunglasses & Watches Up to 65% Off"
+    },
+    {
+        "storeId": 5041,
         "title": "Ted Baker London Up to 60% Off"
+    },
+    {
+        "storeId": 5041,
+        "title": "Run Club Essentials Up to 50% Off"
     },
     {
         "storeId": 5041,
@@ -86,9 +86,5 @@
     {
         "storeId": 5041,
         "title": "Women's Bestsellers Up to 65% Off"
-    },
-    {
-        "storeId": 5041,
-        "title": "Ted Baker London Accessories Up to 60% Off"
     }
 ]

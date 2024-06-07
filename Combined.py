@@ -24,7 +24,7 @@ def extract_from_macys():
         soup = BeautifulSoup(response.text, "html.parser")
         sale_occurrences = set()
         keywords = ["off"]
-        restricted_words = ["coffee", "office"]
+        restricted_words = ["coffee", "office","code"]
         
         def contains_restricted_word(text, restricted_words):
             return any(word in text for word in restricted_words)
@@ -65,8 +65,15 @@ def extract_from_nordstrom():
         )
         time.sleep(random.uniform(2, 4))
         
-        specific_div_texts = [element.text for element in driver.find_elements(By.CSS_SELECTOR, '.udmGE.cSeCo.wHJLP.L1fU8') if "Event ends" not in element.text]
-        return [{"storeId": 5041, "title": title} for title in specific_div_texts[:15]]
+        # Extract text elements and filter out those containing "code" (case-insensitive)
+        specific_div_texts = [
+            element.text for element in driver.find_elements(By.CSS_SELECTOR, '.udmGE.cSeCo.wHJLP.L1fU8')
+            if "Event ends" not in element.text and "code" not in element.text.lower()
+        ]
+        
+        # Construct the result list with a limit of 15 items
+        result = [{"storeId": 5041, "title": title} for title in specific_div_texts[:15]]
+        return result
     
     except Exception as e:
         print(f"Error in Nordstrom extraction: {e}")
